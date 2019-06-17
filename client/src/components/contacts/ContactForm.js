@@ -13,11 +13,8 @@ const ContactForm = () => {
     } else {
       setContact({
         name: '',
-
         email: '',
-
         phone: '',
-
         type: 'personal'
       })
     }
@@ -25,11 +22,8 @@ const ContactForm = () => {
 
   const [contact, setContact] = useState({
     name: '',
-
     email: '',
-
     phone: '',
-
     type: 'personal'
   })
 
